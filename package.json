@@ -18,7 +18,8 @@
     "watch": "ng build --watch --configuration development",
     "storybook": "ng run taskbox:storybook",
     "build-storybook": "ng run taskbox:build-storybook",
-    "init-msw": "msw init src/"
+    "init-msw": "msw init src/",
+    "test-storybook": "test-storybook"
   },
   "private": true,
   "dependencies": {
@@ -30,8 +31,11 @@
     "@angular/platform-browser": "^19.0.6",
     "@angular/platform-browser-dynamic": "^19.0.6",
     "@angular/router": "^19.0.6",
+    "@ngxs/devtools-plugin": "^19.0.0",
+    "@ngxs/logger-plugin": "^19.0.0",
+    "@ngxs/store": "^19.0.0",
     "rxjs": "~7.8.0",
-    "tslib": "^2.3.0",
+    "tslib": "^2.8.1",
     "zone.js": "~0.15.0"
   },
   "devDependencies": {
@@ -39,12 +43,14 @@
     "@angular/cli": "^19.0.7",
     "@angular/compiler-cli": "^19.0.6",
     "@compodoc/compodoc": "^1.1.23",
+    "@storybook/addon-a11y": "^8.6.3",
     "@storybook/addon-essentials": "^8.3.3",
     "@storybook/addon-interactions": "^8.3.3",
     "@storybook/addon-links": "^8.3.3",
     "@storybook/angular": "^8.3.3",
     "@storybook/blocks": "^8.3.3",
     "@storybook/test": "^8.3.3",
+    "@storybook/test-runner": "^0.22.0",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",

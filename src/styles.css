@@ -458,3 +458,8 @@ textarea {
   vertical-align: top;
   max-width: 100%;
 }
+
+.list-item.TASK_ARCHIVED input[type="text"] {
+  color: #4a5568;
+  text-decoration: line-through;
+}
