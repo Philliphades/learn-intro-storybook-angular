@@ -4571,6 +4571,11 @@ chownr@^3.0.0:
   resolved "http://172.21.35.3:56000/chownr/-/chownr-3.0.0.tgz#9855e64ecd240a9cc4267ce8a4aa5d24a1da15e4"
   integrity sha512-+IxzY9BZOQd/XuYPRmrvEVjF/nqj5kgT4kEq7VofrDoM1MxoRjEWkrCC3EtLi59TVawxTAn+orJwFQcrqEN1+g==
 
+chromatic@^11.27.0:
+  version "11.27.0"
+  resolved "http://172.21.35.3:56000/chromatic/-/chromatic-11.27.0.tgz#9450fe1acfc55022d18c7096efcb57509a20d712"
+  integrity sha512-jQ2ufjS+ePpg+NtcPI9B2eOi+pAzlRd2nhd1LgNMsVCC9Bzf5t8mJtyd8v2AUuJS0LdX0QVBgkOnlNv9xviHzA==
+
 chrome-trace-event@^1.0.2:
   version "1.0.4"
   resolved "http://172.21.35.3:56000/chrome-trace-event/-/chrome-trace-event-1.0.4.tgz#05bffd7ff928465093314708c93bdfa9bd1f0f5b"
